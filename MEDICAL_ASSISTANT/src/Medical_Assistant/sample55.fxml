@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medical_Assistant.Sample55Controller">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="988.0">
+         <image>
+            <Image url="@../Images_Folder/617319.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="196.0" layoutY="471.0" onMouseClicked="#goToLBW" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <image>
+            <Image url="@../Images_Folder/Untitled-7.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="593.0" layoutY="471.0" onMouseClicked="#goToTBW" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <image>
+            <Image url="@../Images_Folder/TBW.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_CENTER" layoutX="368.0" layoutY="156.0" text="Which One?" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

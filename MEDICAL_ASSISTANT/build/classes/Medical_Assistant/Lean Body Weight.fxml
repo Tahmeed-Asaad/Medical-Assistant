@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medical_Assistant.LeanBodyWeightController">
+   <children>
+      <Label layoutX="22.0" layoutY="134.0" text="HEIGHT(CM)">
+         <font>
+            <Font name="Lucida Fax Regular" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="input" layoutX="122.0" layoutY="131.0" prefHeight="25.0" prefWidth="154.0">
+         <font>
+            <Font name="Lucida Fax Regular" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="362.0" layoutY="125.0" prefHeight="18.0" prefWidth="64.0" text="GENDER">
+         <font>
+            <Font name="Lucida Fax Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="259.0" prefHeight="20.0" prefWidth="164.0" text="LEAN BODY WEIGHT (KG):">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="result" layoutX="199.0" layoutY="260.0" prefHeight="18.0" prefWidth="123.0">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="455.0" layoutY="257.0" mnemonicParsing="false" onAction="#Calculate" prefHeight="25.0" prefWidth="72.0" text="DONE">
+         <font>
+            <Font name="Lucida Fax Regular" size="14.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="rb1" layoutX="448.0" layoutY="116.0" mnemonicParsing="false" onAction="#action" text="MALE">
+         <font>
+            <Font name="Lucida Fax Regular" size="14.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="GENDER" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rb2" layoutX="448.0" layoutY="144.0" mnemonicParsing="false" onAction="#action" text="FEMALE" toggleGroup="$GENDER">
+         <font>
+            <Font name="Lucida Fax Regular" size="14.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>

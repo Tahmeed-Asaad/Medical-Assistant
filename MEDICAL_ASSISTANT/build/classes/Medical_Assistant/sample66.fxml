@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="706.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medical_Assistant.Sample66Controller">
+   <children>
+      <ImageView fitHeight="706.0" fitWidth="1366.0">
+         <image>
+            <Image url="@../Images_Folder/image2.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="Usersymptom" layoutX="30.0" layoutY="47.0" text="User Selected Symptoms : " textFill="WHITE">
+         <font>
+            <Font name="Cambria Math" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="GeneralSymptom" layoutX="751.0" layoutY="42.0" text="Ideal Symptoms : " textFill="WHITE">
+         <font>
+            <Font name="Cambria Math" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1081.0" layoutY="622.0" onMouseClicked="#gotoMainMenu" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <image>
+            <Image url="@../Images_Folder/Untitled-15.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="132.0" layoutX="30.0" layoutY="639.0" onMouseClicked="#goprevious" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images_Folder/Untitled-11.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label fx:id="UserSymptomList" layoutX="44.0" layoutY="106.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="generalSymptomList" layoutX="770.0" layoutY="107.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

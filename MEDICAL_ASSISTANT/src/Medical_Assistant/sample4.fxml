@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="1456.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medical_Assistant.Sample4Controller">
+   <children>
+      <ImageView fitHeight="706.0" fitWidth="1456.0" layoutY="-1.0">
+         <image>
+            <Image url="@../Images_Folder/3.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="symptoms" layoutX="5.0" layoutY="27.0" text="Medicines" textFill="WHITE">
+         <font>
+            <Font name="Cambria Math" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="perevention" layoutX="802.0" layoutY="22.0" text="Preventions : " textFill="WHITE">
+         <font>
+            <Font name="Cambria Math" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="88.0" fitWidth="200.0" layoutX="637.0" layoutY="613.0" onMouseClicked="#verify" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images_Folder/Untitled-19.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <AnchorPane layoutX="6.0" layoutY="71.0" prefHeight="624.0" prefWidth="610.0">
+         <children>
+            <Label fx:id="medicineList" alignment="TOP_LEFT" layoutX="158.0" layoutY="152.0" prefHeight="624.0" prefWidth="610.0" text="Label" textFill="WHITE" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="802.0" layoutY="65.0" prefHeight="644.0" prefWidth="646.0">
+         <children>
+            <Label fx:id="preventionList" alignment="TOP_LEFT" layoutX="154.0" layoutY="146.0" prefHeight="644.0" prefWidth="652.0" text="Label" textFill="WHITE" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

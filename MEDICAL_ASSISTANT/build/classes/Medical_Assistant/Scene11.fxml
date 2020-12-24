@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medical_Assistant.Scene11Controller">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="988.0" layoutX="-1.0" layoutY="-1.0" opacity="0.11">
+         <image>
+            <Image url="@../Images_Folder/symptoms%20(1).jpg" />
+         </image>
+      </ImageView>
+      <CheckBox layoutX="40.0" layoutY="114.0" mnemonicParsing="false" onAction="#Action" text="Severe headache">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="40.0" layoutY="145.0" mnemonicParsing="false" onAction="#Action" text="Joint and muscle aches">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="40.0" layoutY="176.0" mnemonicParsing="false" onAction="#Action" text="Joint pain">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="40.0" layoutY="84.0" mnemonicParsing="false" onAction="#Action" text="A whistling or wheezing sound when exhaling (wheezing is a common sign of asthma in children)">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="40.0" layoutY="206.0" mnemonicParsing="false" onAction="#Action" text="Joint tenderness">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="40.0" layoutY="236.0" mnemonicParsing="false" onAction="#Action" text="Joint swelling">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="40.0" layoutY="268.0" mnemonicParsing="false" onAction="#Action" text="Anemia">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="40.0" layoutY="298.0" mnemonicParsing="false" onAction="#Action" text="Cough">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="41.0" layoutY="327.0" mnemonicParsing="false" onAction="#Action" text="Production of mucus (sputum), which can be clear, white, yellowish-gray or green in color — rarely, it may be streaked with blood">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="41.0" layoutY="386.0" mnemonicParsing="false" onAction="#Action" text="A feeling of pressure inside the ear that persists">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="41.0" layoutY="415.0" mnemonicParsing="false" onAction="#Action" text="Fussiness in young infants">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="41.0" layoutY="444.0" mnemonicParsing="false" onAction="#Action" text="Runny or stuffy nose">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="41.0" layoutY="357.0" mnemonicParsing="false" onAction="#Action" text="Mild pain or discomfort inside the ear">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </CheckBox>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="333.0" layoutY="19.0" prefHeight="46.0" prefWidth="326.0" text="Select your Symptoms..." textFill="#9a0179">
+         <font>
+            <Font name="Franklin Gothic Medium" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="46.0" fitWidth="109.0" layoutX="37.0" layoutY="603.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images_Folder/Untitled-11.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="109.0" layoutX="820.0" layoutY="603.0" onMouseClicked="#goToLastPage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images_Folder/Untitled-13.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="860.0" layoutY="5.0" text="(11 out of 11)">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

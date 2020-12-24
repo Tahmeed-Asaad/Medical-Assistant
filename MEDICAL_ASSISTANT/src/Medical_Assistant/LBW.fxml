@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medical_Assistant.LBWController">
+   <children>
+      <Label layoutX="205.0" layoutY="26.0" prefHeight="31.0" prefWidth="185.0" text="LBW CALCULATOR" textFill="#125b1a">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="80.0" prefHeight="31.0" prefWidth="185.0" text="Give Your Informations : " textFill="#c61a1a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Male" layoutX="118.0" layoutY="125.0" mnemonicParsing="false" onAction="#MaleFemale" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="a" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="Female" layoutX="220.0" layoutY="125.0" mnemonicParsing="false" onAction="#MaleFemale" text="Female" toggleGroup="$a" />
+      <Label layoutX="57.0" layoutY="167.0" prefHeight="31.0" prefWidth="78.0" text="Height(cm) : " />
+      <Label layoutX="57.0" layoutY="217.0" prefHeight="31.0" prefWidth="78.0" text="Weight(kg) :" />
+      <Label layoutX="118.0" layoutY="359.0" prefHeight="31.0" prefWidth="185.0" text="Lean Body Weight(kg) : " textFill="#3621bf">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ResultTF" layoutX="303.0" layoutY="359.0" prefHeight="39.0" prefWidth="149.0" />
+      <TextField fx:id="WeightTF" layoutX="152.0" layoutY="220.0" />
+      <TextField fx:id="HeightTF" layoutX="152.0" layoutY="170.0" />
+      <Button fx:id="Calculate" layoutX="227.0" layoutY="292.0" mnemonicParsing="false" onAction="#CalculateAL" prefHeight="25.0" prefWidth="115.0" text="Calculate">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="GoMenu" layoutX="230.0" layoutY="430.0" mnemonicParsing="false" onAction="#GoMenuAL" text="Go to Main Menu">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

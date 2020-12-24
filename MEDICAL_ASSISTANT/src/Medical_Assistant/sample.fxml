@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medical_Assistant.SampleController">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="988.0">
+         <image>
+            <Image url="@../Images_Folder/Cover5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="394.0" layoutY="443.0" onMouseClicked="#goToNextMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images_Folder/Untitled-2.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
