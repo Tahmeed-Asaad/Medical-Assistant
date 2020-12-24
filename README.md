@@ -44,100 +44,65 @@ This is a java application that may help a user to find his/her diseases after g
   
 <div> 
  
-  <h3> Home Page  </h3>
 
- <img src="DEMO_IMAGES/demo1.png">
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/1.png">
 
  </div>
 
 
-<div>
-
-  <h3>Logging in as a student </h3>
-  
- <img src="DEMO_IMAGES/demo2.png">
- 
- </div>
+<div> 
  
 
-<div>
-  <h3> Features available to the students  </h3>
-  
- <img src="DEMO_IMAGES/demo3.png">
- 
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/2.png">
+
  </div>
-<div>
-  <h3> Attendance record of a student  </h3>
-  
- <img src="DEMO_IMAGES/demo4.png">
  
+ <div> 
+ 
+
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/3.png">
+
  </div>
 
-<div>
-  <h3> Exam Result of a student  </h3>
-  
- <img src="DEMO_IMAGES/demo5.png">
+
+<div> 
  
+
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/4.png">
+
+ </div>
+ 
+ <div> 
+ 
+
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/5.png">
+
  </div>
 
-<div>
-  <h3> Student can download his/her respective class routine   </h3>
-  
- <img src="DEMO_IMAGES/demo6.png">
+
+<div> 
  
+
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/6.png">
+
+ </div>
+ 
+
+<div> 
+ 
+
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/7.png">
+
  </div>
 
-<div>
-  <h3> Student's profile  </h3>
-  
- <img src="DEMO_IMAGES/demo7.png">
+
+<div> 
  
+
+ <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/8.png">
+
  </div>
 
-<div>
-  <h3> Student can search exam result by subject and attendance by date  </h3>
-  
- <img src="DEMO_IMAGES/demo8.png">
- 
- </div>
-
-<div>
-  <h3> Result of searching exam result by subject (Bangla)   </h3>
-  
- <img src="DEMO_IMAGES/demo9.png">
- 
- </div>
-
-<div>
-  <h3> Result of searching attendance by date (3-1-2019)  </h3>
-  
-  <h3> Similiar convenient features are availble to the teachers as well </h3>
-  
- <img src="DEMO_IMAGES/demo10.png">
- 
- </div>
-
-<div>
-  <h3> Features available to the guardians </h3>
-  
- <img src="DEMO_IMAGES/demo11.png">
- 
- </div>
-
-<div>
-  <h3> Guardians can view their child's exam results  </h3>
-  
- <img src="DEMO_IMAGES/demo12.png">
- 
- </div>
-
-<div>
-  <h3> Guardians can view their child's attendance record  </h3>
-  
- <img src="DEMO_IMAGES/demo13.png">
- 
- </div>
- 
  ## Setup
  
 'Medical_Assistant.java' file should be built at first using any Java supported IDE. During building if some libraries are missing then 
