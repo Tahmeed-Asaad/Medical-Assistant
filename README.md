@@ -33,12 +33,11 @@ This is a java application that may help a user to find his/her diseases after g
   * There are 173 distinct symptoms given to the users to select from
   
   ## Technologies
-  * ASP.NET MVC
+  * Java
+  * JavaFX
   * HTML
-  * Javascript
-  * CSS
-  * SCSS
-  * C#
+  * MySQL
+  * Scene builder
   
   ## Demo Screenshots
   
