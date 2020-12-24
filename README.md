@@ -61,7 +61,7 @@ This is a java application that may help a user to find his/her diseases after g
  </div>
  
  <div> 
- 
+ <h1>      </h1>
 
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/3.png">
 
@@ -70,14 +70,14 @@ This is a java application that may help a user to find his/her diseases after g
 
 <div> 
  
-
+<h1>      </h1>
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/4.png">
 
  </div>
  
  <div> 
  
-
+<h1>      </h1>
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/5.png">
 
  </div>
@@ -85,14 +85,14 @@ This is a java application that may help a user to find his/her diseases after g
 
 <div> 
  
-
+<h1>      </h1>
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/6.png">
 
  </div>
  
 
 <div> 
- 
+ <h1>      </h1>
 
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/7.png">
 
@@ -100,7 +100,7 @@ This is a java application that may help a user to find his/her diseases after g
 
 
 <div> 
- 
+ <h1>      </h1>
 
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/8.png">
 
