@@ -44,6 +44,7 @@ This is a java application that may help a user to find his/her diseases after g
   
 <div> 
  
+ margin-top: 50px
 
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/1.png">
 
@@ -52,6 +53,7 @@ This is a java application that may help a user to find his/her diseases after g
 
 <div> 
  
+ margin-top: 50px
 
  <img src="MEDICAL_ASSISTANT/DEMO_IMAGES/2.png">
 
