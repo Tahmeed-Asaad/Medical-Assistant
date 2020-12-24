@@ -35,6 +35,7 @@ This is a java application that may help a user to find his/her diseases after g
   ## Technologies
   * Java
   * JavaFX
+  * XAMPP
   * HTML
   * MySQL
   * Scene builder
@@ -139,4 +140,6 @@ This is a java application that may help a user to find his/her diseases after g
  
  ## Setup
  
-It is better to use Microsoft Visual Studio IDE (Integrated Development Environment) to run this project properly. The 'OnlineSchool.sln' file should be opened with the IDE to  built the project and to run it.
+'Medical_Assistant.java' file should be built at first using any Java supported IDE. During building if some libraries are missing then 
+'MEDICAL ASSISTANT\APACHE LANG3 LIBRARY\commons-lang3-3.6\commons-lang3-3.6.jar' file should be imported. XAMPP server should be setup locally.Then using 'phpMyAdmin' a 
+database named 'medical_assistant' should be created from there the 'REQUIRED SQL TABLE\medical_assistant (1).sql' file should be imported. Now the project is ready to run.
